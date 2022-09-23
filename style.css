@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'game';
+    src: url('GAMERIA.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'gameplay';
+    src: url('Gameplay.ttf');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: rgba(4, 4, 4, 0.566);
+    color: white;
+    height: 200px;
+    font: normal 14.46px monospace;
+    max-width: 900px;
+    min-width: 578px;
+    margin: auto;
+}
+div#game{
+    padding: 150px;
+    text-align: center;
+    
+}
+header>p{
+    background-color: white;
+    margin: 0px 18px;
+}
+h1{
+    font-family: 'game';
+    font-size: 55px;
+    padding:16px ;
+    background-color: blueviolet;
+}
+div#click-instrucoes{
+    background-color: rgb(0, 0, 0);
+    font-size: 1.478em;
+    border:4px solid white ;
+    
+}
+p#inicio:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+div#instrucoes{
+    display: none;
+}
+div#instrucoes > h2{
+    font-size: 1.4em;
+    border: 4px solid white;
+    border-top: 0;
+}
+div#instrucoes >ul{
+    text-align: left;
+    padding: 40px;
+}
+div#instrucoes  input{
+    color: black;
+    background-color: white;
+    width: 134px;
+    height: 58px;
+    font-family: 'gameplay';
+    margin-bottom: 15px;
+    cursor: pointer;
+}
