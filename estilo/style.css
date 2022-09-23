@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'game';
-    src: url('GAMERIA.ttf') format('truetype');
+    src: url('fontes/GAMERIA.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'gameplay';
-    src: url('Gameplay.ttf');
+    src: url('fontes/Gameplay.ttf') format('truetype');
 }
 
 
